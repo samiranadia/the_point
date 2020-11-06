@@ -1,0 +1,346 @@
+/*font-family: 'Karma', serif;
+font-family: 'Merriweather', serif;*/
+body{font-family: 'Karma', serif;
+font-family: 'Merriweather', serif; font-weight:400;} 
+h1,h2,h3,h3,h4,h5,h6{ font-weight: 500; line-hight: 1.5em;}
+p{font-weight:400; line-hight: 1.5em;}
+
+/*header*/
+#header_area{
+	background-color: #f8f8f8;
+	border-top:10px solid #1c1c1c;
+	padding: 45px 0;
+	width: 100%;
+	clear: both;
+}
+#header_area form{
+	float: right; width:300px;}
+ #header_area form input{
+ 	border: 2px solid #ddd;
+ 	background: #fff;
+ 	padding: 12px;
+ 	width: 215px;
+ 	float: left;
+ }	
+ #header_area input[type="submit"]{
+ 	background: #d54346;
+ 	color: #fff;
+ 	text-transform: uppercase;
+ 	font-size: 14px;
+ 	width: 84px;
+ 	float: left;
+ 	border: 3px solid #d54346;
+ 	cursor: pointer;
+ 	transition: 0.5s;
+ }
+ #header_area input[type="submit"]:hover {
+ 	background: #000;
+ 	border: 2px solid #000;
+ }
+
+/*main menu*/
+#main_menu {
+    width: 100%;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    padding: 18px 0;
+    clear: both;
+}
+#main_menu ul#nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+#main_menu ul#nav li {
+    display: inline-block;
+    position: relative;
+}
+#main_menu ul#nav li a {
+    color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: block;
+    padding: 5px 20px;
+    transition: 0.5s;
+}
+#main_menu ul#nav li a span{
+	display: block;
+	color: #999999;
+	font-size: 12px;
+	text-transform: capitalize;
+	text-decoration: none;
+	line-height: 1.4em;
+
+}
+#main_menu ul#nav li a:hover {
+	 color: #d54346;
+	 text-decoration: none;
+}
+#main_menu ul#nav li a:hover span {
+	 color: #d54346;
+}
+
+/*dropdown menu*/
+#main_menu ul#nav li ul{
+	background: #d54346;
+	width: 200px;
+	position: absolute;
+	top: 45px;
+	left: 0;
+	text-align: left;
+	padding: 0;
+	z-index: 99999;
+}
+#main_menu ul#nav li:hover ul{
+	left: 0;
+}
+
+#main_menu ul#nav li ul li{
+	display: block;
+	text-align: left;
+	margin-bottom: 2px;
+}
+#main_menu ul#nav li ul li a{
+	display:block;
+	text-align: left; 
+	color: #fff;
+
+}
+#main_menu ul#nav li ul li a:hover{
+	background: #000;
+	color: #fff;
+}
+
+
+
+#main_menu .social_area{}
+#main_menu .social_area ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+#main_menu .social_area ul li{ 
+    display: inline-block;
+    margin-left: 10px;
+}
+#main_menu .social_area ul li a{
+    background: #333333;
+    color: #fff;
+    width: 35px;
+    display: block;
+    height: 35px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+#main_menu .social_area ul li a:hover {
+	background: #d54346;
+}
+
+/*banner area*/
+.banner_text{} 
+.banner_text h1{
+	font-size: 80px;
+	color: #fff;
+	line-height: 1.6em;
+}
+.banner_text h2{
+	padding-bottom: 30px;
+	font-size: 40px;
+	color: #fff;
+	line-height: 1em;
+}
+.banner_bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	z-index: 1;
+	opacity: 0.8;
+}
+.banner_bottom:after{
+	background: #000;
+	position: absolute;
+	content: "";
+	left: 0;
+	top:0 ;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.banner_bottom p{
+	color: #fff;
+	margin: 0;
+}
+.cid{
+	bottom: -50px;
+
+}
+.cid li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #cecece;
+}
+/* Client section*/
+.client_section{
+	padding: 40px 0;
+	width: 100%;
+	background: #fff;
+	clear: both;
+	text-align: center;
+
+}
+.client_section h2{
+	font-size: 30px;
+	color: #4a4a4a;
+	text-transform: capitalize;
+	margin-bottom: 0;
+}
+.client_section p{
+	font-size: 18px;
+	color: #999999;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+
+}
+.client_section img{
+	display: block;
+	margin: 0 auto 10px;
+
+}
+.client_section a{
+	color: #d54346;
+}
+/*project section*/
+#latest_project_area{
+	background:#fff;
+	padding: 50px 0;
+	border-top: 2px solid #ddd;
+	clear: both; 
+}
+#latest_project_area p{
+	font-size: 20px;
+	color: #4a4a4a;
+	text-transform: uppercase;
+	text-align: right; 
+	margin-bottom: 10;
+	line-height: 1em;
+}
+#latest_project_area h2{
+	font-size: 66px;
+	color: #d44346;
+	text-align: right;
+	line-height: 1em;
+}
+#latest_project_area .child_project{
+	width: 48%;
+	margin: 0 1% 10px;
+	float: left;
+	padding: 10px;
+}
+#latest_project_area .child_project img{
+	margin-bottom: 15px;
+	text-align: center;
+}
+#latest_project_area .child_project h4{
+	font-size: 20px;
+	color: #4a4a4a;
+}
+#latest_project_area .child_project p{
+	font-size: 13px;
+	color: #999999;
+	text-align: center;
+	text-transform: none;
+	line-height: 1.5em;
+}
+#latest_project_area .child_project a{
+	font-size: 14px;
+	background: #d54346;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 10px;
+	transition: 0.5s;
+
+}
+#latest_project_area .child_project a:hover{
+	background: #000;
+}
+/*footer section*/
+#footer_section{
+	background: #d44346;
+	padding: 40px 0 0;
+	width: 100%;
+	clear: both;
+	border-top: 10px solid #871f21;
+	color: #fff;
+
+}
+#footer_section .chlid_footer{
+	width: 100%;
+	clear: both;margin-bottom: 20px;
+}
+#footer_section .chlid_footer h2.title{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#footer_section .chlid_footer h3{
+	font-size: 16px;
+    text-transform: capitalize;
+}
+#footer_section .chlid_footer p{
+	font-size: 14px;
+	text-transform: none;
+}
+#footer_section .chlid_footer a{
+	color: #871f21;
+}
+#footer_section .chlid_footer ul{
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+
+}
+#footer_section .chlid_footer ul li{
+	border-bottom: 1px solid #d85255;
+	padding: 5px 0;
+}
+#footer_section .chlid_footer ul li a{
+
+}
+#footer_section .chlid_footer ul li a:hover{}
+#footer_section .chlid_footer input{
+	width: 100%;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+#footer_section .chlid_footer input[type="submit"]{
+	background: #871f21;
+	width: 150px;
+	border: 1px solid #871f21;
+	transition: 0.5s;
+	color: #fff;
+	cursor: pointer;
+}
+#footer_section .chlid_footer input[type="submit"]:hover{
+	background: #000;
+}
+#footer_section .col-md-12{
+	border-top: 1px solid ##871f21;
+	margin-top: 20px;
+	padding: 20px 0 0;
+	text-align: center;
+
+}
+
